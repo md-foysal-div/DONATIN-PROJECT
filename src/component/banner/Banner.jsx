@@ -5,7 +5,6 @@ import CardItem from "../cardItem/CardItem";
 
 const Banner = () => {
     const items = useLoaderData()
-    console.log(items)
     return (
         <div className=" container mx-auto">
             <div className="banner">
