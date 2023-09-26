@@ -6,9 +6,11 @@
       "category": "Clean water f or children",
       "price": "$199.99",
       "description": "Description for Product 1",
-      "backgroundcolor": "#FF5733",
-      "textcolor": "#0052FF",
-      "titlebackgroundcolor":" bg-red-800"
+      "color": "#0052FF",
+      "backgroundColor": "#dee8f2",
+      "background":"#aed4fa",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
+  
     },
     {
       "img": "https://i.ibb.co/syBG4K0/Rectangle-4287-1.png",
@@ -17,9 +19,11 @@
       "category": "Good education",
       "price": "$49.99",
       "description": "Description for Product 2",
-      "backgroundcolor": "#3374FF",
-      "textcolor": "#FF444A",
-      "titlebackgroundcolor": "#FF444A "
+      "color": "#FF444A",
+      "backgroundColor": "#e0c3c4",
+      "background":"#dcb9ba",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
+  
     },
     {
       "img": "https://i.ibb.co/RDFFkQk/Rectangle-4287.png",
@@ -28,9 +32,10 @@
       "category": "Used clothing Drive",
       "price": "$79.99",
       "description": "Description for Product 3",
-      "backgroundcolor": "#79C23F  ",
-      "textcolor": "#79C23F",
-      "titlebackgroundcolor": "#79C23F26"
+      "color": "#79C23F",
+      "backgroundColor": "#d4edbf",
+      "background":"#bce39c",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     },
     {
       "img": "https://i.ibb.co/p1QgmWP/Rectangle-4287-2.png",
@@ -39,100 +44,107 @@
       "category": "better Food for everyone",
       "price": "$29.99",
       "description": "Description for Product 4",
-      "backgroundcolor": "#F87147 ",
-      "textcolor": "#F87147",
-      "titlebackgroundcolor": "#FF33CC"
+      "color": "#FF444A",
+      "backgroundColor": "#e0c3c4",
+      "background":"#dcb9ba",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
+    },
+    {
+      "img": "https://i.ibb.co/khFnKKJ/Health.png",
+      "title": "Health",
+      "id": "005",
+      "category": "Clean water for children",
+      "price": "$199.99",
+      "description": "Description for Product 1",
+      "color": "#0052FF",
+      "backgroundColor": "#dee8f2",
+      "background":"#aed4fa",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
+    },
+    {
+      "img": "https://i.ibb.co/RDFFkQk/Rectangle-4287.png",
+      "title": "Clothing",
+      "id": "006",
+      "category": "Used clothing Drive",
+      "price": "$79.99",
+      "description": "Description for Product 3",
+      "color": "#79C23F",
+      "backgroundColor": "#d4edbf",
+      "background":"#bce39c",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     },
     {
       "img": "https://i.ibb.co/p1QgmWP/Rectangle-4287-2.png",
       "title": "Food",
-      "id": "004",
+      "id": "007",
       "category": "better Food for everyone",
       "price": "$29.99",
       "description": "Description for Product 4",
-      "backgroundcolor": "#FF33CC",
-      "textcolor": "#000000",
-      "titlebackgroundcolor": "#FF33CC"
+      "color": "#FF444A",
+      "backgroundColor": "#e0c3c4",
+      "background":"#dcb9ba",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     },
     {
       "img": "https://i.ibb.co/syBG4K0/Rectangle-4287-1.png",
       "title": "Education",
-      "id": "002",
+      "id": "008",
       "category": "Good education",
       "price": "$49.99",
       "description": "Description for Product 2",
-      "backgroundcolor": "#3374FF",
-      "textcolor": "#FFFFFF",
-      "titlebackgroundcolor": "#3374FF"
+      "color": "#79C23F",
+      "backgroundColor": "#d4edbf",
+      "background":"#bce39c",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     },
-    {
-      "img": "https://i.ibb.co/RDFFkQk/Rectangle-4287.png",
-      "title": "Clothing",
-      "id": "003",
-      "category": "Used clothing Drive",
-      "price": "$79.99",
-      "description": "Description for Product 3",
-      "backgroundcolor": "#79C23F  ",
-      "textcolor": "#79C23F",
-      "titlebackgroundcolor": "#79C23F26"
-    },
+  
     {
       "img": "https://i.ibb.co/khFnKKJ/Health.png",
       "title": "Health",
-      "id": "001",
+      "id": "009",
       "category": "Clean water for children",
       "price": "$199.99",
       "description": "Description for Product 1",
-      "backgroundcolor": "#FF5733",
-      "textcolor": "#0052FF",
-      "titlebackgroundcolor": "#0052FF"
-    },
-  
-  
-
-    {
-      "img": "https://i.ibb.co/khFnKKJ/Health.png",
-      "title": "Health",
-      "id": "001",
-      "category": "Clean water for children",
-      "price": "$199.99",
-      "description": "Description for Product 1",
-      "backgroundcolor": "#FF5733",
-      "textcolor": "#0052FF",
-      "titlebackgroundcolor": "#0052FF"
+      "color": "#79C23F",
+      "backgroundColor": "#d4edbf",
+      "background":"#bce39c",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     },
     {
       "img": "https://i.ibb.co/syBG4K0/Rectangle-4287-1.png",
       "title": "Education",
-      "id": "002",
+      "id": "0010",
       "category": "Good education",
       "price": "$49.99",
       "description": "Description for Product 2",
-      "backgroundcolor": "#3374FF",
-      "textcolor": "#FFFFFF",
-      "titlebackgroundcolor": "#3374FF"
+      "color": "#FF444A",
+      "backgroundColor": "#e0c3c4",
+      "background":"#dcb9ba",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     },
     {
       "img": "https://i.ibb.co/RDFFkQk/Rectangle-4287.png",
       "title": "Clothing",
-      "id": "003",
+      "id": "0011",
       "category": "Used clothing Drive",
       "price": "$79.99",
       "description": "Description for Product 3",
-    "backgroundcolor": "#79C23F  ",
-      "textcolor": "#79C23F",
-      "titlebackgroundcolor": "#79C23F26"
+      "color": "#79C23F",
+      "backgroundColor": "#d4edbf",
+      "background":"#bce39c",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     },
     {
       "img": "https://i.ibb.co/p1QgmWP/Rectangle-4287-2.png",
       "title": "Food",
-      "id": "004",
+      "id": "0012",
       "category": "better Food for everyones",
       "price": "$29.99",
       "description": "Description for Product 4",
-      "backgroundcolor": "#FF33CC",
-      "textcolor": "#000000",
-      "titlebackgroundcolor": "#FF33CC"
+      "color": "#FF444A",
+      "backgroundColor": "#e0c3c4",
+      "background":"#dcb9ba",
+      "discription":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem iste, maxime molestiae perspiciatis quaerat dolorum autem quos enim consectetur officia earum. Dignissimos consequatur iusto labore neque nisi dolor sequi molestiae iure cum perferendis et ratione, autem excepturi! Exercitationem accusamus, velit et quis dolorem voluptatem minima omnis. Ducimus cum illo facilis distinctio eaque iusto recusandae vel impedit asperiores eveniet earum temporibus hic architecto voluptas quis odit incidunt, est explicabo accusantium corporis aut dolor sapiente quas fugit? Ut in placeat dolores alias beatae quis illo error delectus fugiat reiciendis quod"
     }
   ]
   

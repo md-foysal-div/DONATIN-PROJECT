@@ -1,12 +1,12 @@
 
 import './App.css'
-// import Navcomp from './component/nav/Navcomp'
+// import Navcomp from './component/nav/Navcomp';
 
 function App() {
 
   return (
     <>
-     {/* <Navcomp></Navcomp> */}
+    {/* <Navcomp></Navcomp> */}
     </>
   )
 }
