@@ -1,0 +1,138 @@
+[
+    {
+      "img": "https://i.ibb.co/khFnKKJ/Health.png",
+      "title": "Health ",
+      "id": "001",
+      "category": "Clean water f or children",
+      "price": "$199.99",
+      "description": "Description for Product 1",
+      "backgroundcolor": "#FF5733",
+      "textcolor": "#0052FF",
+      "titlebackgroundcolor":" bg-red-800"
+    },
+    {
+      "img": "https://i.ibb.co/syBG4K0/Rectangle-4287-1.png",
+      "title": "Education",
+      "id": "002",
+      "category": "Good education",
+      "price": "$49.99",
+      "description": "Description for Product 2",
+      "backgroundcolor": "#3374FF",
+      "textcolor": "#FF444A",
+      "titlebackgroundcolor": "#FF444A "
+    },
+    {
+      "img": "https://i.ibb.co/RDFFkQk/Rectangle-4287.png",
+      "title": "Clothing",
+      "id": "003",
+      "category": "Used clothing Drive",
+      "price": "$79.99",
+      "description": "Description for Product 3",
+      "backgroundcolor": "#79C23F  ",
+      "textcolor": "#79C23F",
+      "titlebackgroundcolor": "#79C23F26"
+    },
+    {
+      "img": "https://i.ibb.co/p1QgmWP/Rectangle-4287-2.png",
+      "title": "Food",
+      "id": "004",
+      "category": "better Food for everyone",
+      "price": "$29.99",
+      "description": "Description for Product 4",
+      "backgroundcolor": "#F87147 ",
+      "textcolor": "#F87147",
+      "titlebackgroundcolor": "#FF33CC"
+    },
+    {
+      "img": "https://i.ibb.co/p1QgmWP/Rectangle-4287-2.png",
+      "title": "Food",
+      "id": "004",
+      "category": "better Food for everyone",
+      "price": "$29.99",
+      "description": "Description for Product 4",
+      "backgroundcolor": "#FF33CC",
+      "textcolor": "#000000",
+      "titlebackgroundcolor": "#FF33CC"
+    },
+    {
+      "img": "https://i.ibb.co/syBG4K0/Rectangle-4287-1.png",
+      "title": "Education",
+      "id": "002",
+      "category": "Good education",
+      "price": "$49.99",
+      "description": "Description for Product 2",
+      "backgroundcolor": "#3374FF",
+      "textcolor": "#FFFFFF",
+      "titlebackgroundcolor": "#3374FF"
+    },
+    {
+      "img": "https://i.ibb.co/RDFFkQk/Rectangle-4287.png",
+      "title": "Clothing",
+      "id": "003",
+      "category": "Used clothing Drive",
+      "price": "$79.99",
+      "description": "Description for Product 3",
+      "backgroundcolor": "#79C23F  ",
+      "textcolor": "#79C23F",
+      "titlebackgroundcolor": "#79C23F26"
+    },
+    {
+      "img": "https://i.ibb.co/khFnKKJ/Health.png",
+      "title": "Health",
+      "id": "001",
+      "category": "Clean water for children",
+      "price": "$199.99",
+      "description": "Description for Product 1",
+      "backgroundcolor": "#FF5733",
+      "textcolor": "#0052FF",
+      "titlebackgroundcolor": "#0052FF"
+    },
+  
+  
+
+    {
+      "img": "https://i.ibb.co/khFnKKJ/Health.png",
+      "title": "Health",
+      "id": "001",
+      "category": "Clean water for children",
+      "price": "$199.99",
+      "description": "Description for Product 1",
+      "backgroundcolor": "#FF5733",
+      "textcolor": "#0052FF",
+      "titlebackgroundcolor": "#0052FF"
+    },
+    {
+      "img": "https://i.ibb.co/syBG4K0/Rectangle-4287-1.png",
+      "title": "Education",
+      "id": "002",
+      "category": "Good education",
+      "price": "$49.99",
+      "description": "Description for Product 2",
+      "backgroundcolor": "#3374FF",
+      "textcolor": "#FFFFFF",
+      "titlebackgroundcolor": "#3374FF"
+    },
+    {
+      "img": "https://i.ibb.co/RDFFkQk/Rectangle-4287.png",
+      "title": "Clothing",
+      "id": "003",
+      "category": "Used clothing Drive",
+      "price": "$79.99",
+      "description": "Description for Product 3",
+    "backgroundcolor": "#79C23F  ",
+      "textcolor": "#79C23F",
+      "titlebackgroundcolor": "#79C23F26"
+    },
+    {
+      "img": "https://i.ibb.co/p1QgmWP/Rectangle-4287-2.png",
+      "title": "Food",
+      "id": "004",
+      "category": "better Food for everyones",
+      "price": "$29.99",
+      "description": "Description for Product 4",
+      "backgroundcolor": "#FF33CC",
+      "textcolor": "#000000",
+      "titlebackgroundcolor": "#FF33CC"
+    }
+  ]
+  
