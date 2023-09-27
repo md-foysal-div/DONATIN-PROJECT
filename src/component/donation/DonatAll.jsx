@@ -1,5 +1,4 @@
 
-import { split } from "postcss/lib/list";
 import { NavLink } from "react-router-dom";
 
 const DonatAll = ({ cardItem }) => {

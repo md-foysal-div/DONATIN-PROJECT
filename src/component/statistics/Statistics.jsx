@@ -1,32 +1,67 @@
-import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Cell } from 'recharts';
+import './stat.css'
+import { useEffect, useState } from 'react';
 const Statistics = () => {
+    const [pai, setPai] = useState()
+    const [localPai, setLocalsetPai] = useState()
+    const [noData, setNodata] = useState()
+
+    useEffect(() => {
+        const totalData = 12
+        const local = JSON.parse(localStorage.getItem('donate'))
+        if (local) {
+            const ff = local.length * 100 / totalData;
+            setPai(ff)
+            setLocalsetPai(100 - ff)
+        }
+        else {
+            setNodata('NO DATA IN HERE')
+        }
+
+    }, [pai, localPai])
+
     const data = [
-        { name: 'Group A', value: 400 },
-        { name: 'Group B', value: 300 },
-        { name: 'Group C', value: 300 },
-        { name: 'Group D', value: 200 },
-      ];
-      const COLORS = ['#0088FE', '#FF8042'];
-     
+        console.log(pai),
+        { name: 'Group A', value: pai },
+        { name: 'Group B', value: localPai },
+
+    ];
+
+    const COLORS = ['#0088FE', '#FF8042'];
+
     return (
-        <div>
-         <PieChart width={800} height={700}>
-          <Pie
-            data={data}
-            cx="70%"
-            cy="50%"
-            labelLine={false}
-            // label={renderCustomizedLabel}
-            outerRadius={100}
-            fill="0088FE"
-            dataKey="value"
-          >
-            {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-            ))}
-          </Pie>
-        </PieChart>
+        <div className='container mx-auto'>
+            <PieChart width={1100} height={500}>
+                <Pie
+                    data={data}
+                    cx="60%"
+                    cy="50%"
+                    labelLine={false}
+                    outerRadius={200}
+                    fill="#8884d8"
+                    dataKey="value"
+                >
+                    {data.map((entry, index) => (
+
+
+                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                </Pie>
+            </PieChart>
+            {
+                localPai? <div className="color-div flex justify-center">
+                    <div className='flex items-center gap-1'>
+                        <p>Your donation</p>
+                        <span className='color-one'></span>
+                    </div>
+
+                    <div className='flex items-center gap-1'>
+                    <p>Total donation</p>
+                        <span className='color-two'></span>
+                    </div>
+                    
+                </div>:<h1 className='text-center -mt-80'>{noData}</h1>
+        }
         </div>
     );
 };

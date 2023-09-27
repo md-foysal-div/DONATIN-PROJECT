@@ -1,0 +1,16 @@
+.color-one{
+    height:10px ;
+    width:60px;
+    background:#0088FE;
+    margin-right:10px;
+    display:inline-block
+}
+.color-two{
+    height:10px ;
+    width:60px;
+    background:#FF8042;
+    display: inline-block;
+}
+.color-div{
+    text-align: center;
+}
