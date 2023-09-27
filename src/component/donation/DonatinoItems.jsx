@@ -1,26 +1,52 @@
+import { useEffect, useState } from "react";
+import swal from 'sweetalert';
+import DonatAll from "./DonatAll";
 
 
-// const DonatinoItems = ({data}) => {
-//     const {img,price,title,discription}=data
-//     console.log(data)
-//     return (
-//         <div>
-//             <div className="container mx-auto mb-20">
-//                 <div className="donation-item">
-//                     <div className="donation-img relative">
-//                         <img className="w-full h-[500px]" src={img} alt="" />
-//                         <div className=" flex items-center  img-button w-full h-28 bg-black opacity-70 absolute bottom-0 right-0">
-//                             <button className="btn ml-6 bg-red-800  border-none text-white">{price}</button>
-//                         </div>
-//                     </div>
-//                     <div className="discription">
-//                         <h2 className="text-4xl font-bold my-9">{title}</h2>
-//                         <p className="text-lg font-medium ">{discription}</p>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
+const DonatinoItems = () => {
 
-// export default DonatinoItems;
+    const [donats, setDonats] = useState([])
+    const [notFount, setFound] = useState()
+    const [isShow, setShow] = useState(false)
+    useEffect(() => {
+        const local = JSON.parse(localStorage.getItem('donate'))
+        if (local) {
+
+            setDonats(local)
+        }
+        else {
+            swal({
+                title: "NO data found !!",
+                text: "",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+            setFound('no items found')
+        }
+
+    }, [])
+  const showItem = (props)=>{
+    setShow(props)
+  }
+    return (
+        <div className="container mx-auto mt-20">
+            {
+                notFount ? <p className="text-2xl text-center mt-20">{notFount}</p> : <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5  ">
+                    {
+                      isShow ?   donats.map(cardItem => <DonatAll key={cardItem.id} cardItem={cardItem}></DonatAll>):
+                      donats.slice(0,4).map(cardItem => <DonatAll key={cardItem.id} cardItem={cardItem}></DonatAll>)
+                    }
+                </div>
+            }
+            <div className="flex justify-center mt-10">
+                {
+                    donats.length > 4 && <button className="btn btn-error flex justify-center"onClick={() =>showItem(!isShow)}>show more</button>
+                }
+            </div>
+
+        </div>
+    );
+};
+
+export default DonatinoItems;

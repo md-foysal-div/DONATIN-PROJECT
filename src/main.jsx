@@ -8,6 +8,7 @@ import {
 import Navcomp from './component/nav/Navcomp.jsx';
 import Banner from './component/banner/Banner';
 import Donation from './component/donation/Donation';
+import DonatinoItems from './component/donation/DonatinoItems';
 import Statistics from './component/statistics/Statistics';
 const router =createBrowserRouter([
   {
@@ -25,7 +26,11 @@ const router =createBrowserRouter([
         element:<Donation></Donation>
       },
       {
-        path:'/sta',
+        path:'/donatedItem',
+        element:<DonatinoItems></DonatinoItems>
+      },
+      {
+        path:'/Statistics',
         element:<Statistics></Statistics>
       }
     ]
