@@ -13,7 +13,7 @@ const Navcomp = () => {
                     </div>
                     <div className="flex-none">
                         <ul className="menu menu-horizontal px-1 flex">
-                           <NavLink to='/' className='mr-4'>Home</NavLink>
+                           <NavLink to='/' className='mr-4'>navber</NavLink>
                            <NavLink to='/donatedItem' className='mr-4'>Donation</NavLink>
                            <NavLink to='/Statistics' >Statistics</NavLink>
                         </ul>
